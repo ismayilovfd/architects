@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#first{
+    width: 100%;
+    height: 700px;
+}
+.container{
+    width: 90%;
+    height: auto;
+    margin: auto;
+}
+.proje{
+    width: 100%;
+    height: 120px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.proje p{
+  font-size: 22px;  
+  font-weight: 500;
+}
+.images{
+    width: 100%;
+    height: 520px;
+    /* margin-left: 30px; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+/* .image1{
+    width:310px;
+    height: 240px;
+    position: relative;
+} */
+.image{
+    width: 23%;
+    height: 240px;
+    position: relative;
+}
+.house{
+    width: 100%;
+    height: 100%;
+}
+/* .image1 img{
+    width:310px;
+    height: 240px;
+} */
+.home{
+    width: 140px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image2{
+    width:310px;
+    height: 240px;
+    position: relative;
+}
+/* .image2 img{
+    width:310px;
+    height: 240px;
+} */
+.home2{
+    width: 140px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image3{
+    width:310px;
+    height: 240px;
+    position: relative;
+}
+/* .image3 img{
+    width:310px;
+    height: 240px;
+} */
+.home3{
+    width: 140px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.image4{
+    width:310px;
+    height: 240px;
+    position: relative;
+}
+/* .image4 img{
+    width:310px;
+    height: 240px;
+} */
+.home4{
+    width: 140px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+    .image5{
+        width: 150px;
+        height: 225px;
+    }
+    .image6{
+        width: 150px;
+        height: 225px;
+    }
+    .image7{
+        width: 150px;
+        height: 225px;
+    }
+    .image8{
+        width: 150px;
+        height: 225px;
+    }
+#second{
+    width: 100%;
+    height: 600px;
+}
+.about{
+    width: 1280px;
+    height: 60px;
+    background-color: white;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+}
+.about p{
+    font-size: 22px;  
+    font-weight: 500;
+}
+.text{
+    width: 1280px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 30px;
+    background-color: white;
+}
+.persons{
+    width: 1280px;
+    height: 440px;
+    display: flex;
+    margin-left: 30px;
+    justify-content: space-between;
+}
+.persons button{
+    cursor: pointer;
+}
+.person1{
+    width: 310px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.person1 img{
+    width: 310px;
+    height: 200px;
+}
+.person1 button{
+    width: 310px;
+    height: 30px;
+}
+.persons button:hover{
+    background-color:grey;
+}
+.john{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.person2{
+    width: 310px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.person2 img{
+    width: 310px;
+    height: 200px;
+}
+.person2 button{
+    width: 310px;
+    height: 30px;
+}
+.jane{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.person3{
+    width: 310px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.person3 img{
+    width: 310px;
+    height: 200px;
+}
+.person3 button{
+    width: 310px;
+    height: 30px;
+}
+.mike{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+.person4{
+    width: 310px;
+    height: 390px;
+    display: flex;
+    flex-direction: column;
+    gap: 19px;
+}
+.person4 img{
+    width: 310px;
+    height: 200px;
+}
+.person4 button{
+    width: 310px;
+    height: 30px;
+}
+.dan{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+}
+
+/* @media screen and (min-width: 661px) and (max-width: 992px){
+    .image{
+        width:%;
+    }
+} */
+#third{
+    width: 100%;
+    height: 350px;
+}
+.cont{
+    width:96%;
+    height:60px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+}
+.cont p{
+    font-size: 25px;
+}
+.forma{
+    width: 96%;
+    height: 180px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.forma form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+}
+.bttn{
+    width: 96%;
+    height:60px;
+    margin:auto;
+    padding-top: 50px;
+}
+.bttn button{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+.bttn button:hover{
+    background-color: grey;
+    color: black;
+}
+.forma form input{
+    height: 30px;
+}
+#forth{
+    width: 100%;
+    height: 610px;
+}
+.map{
+   width: 96%;
+   height: 600px;
+   margin: auto;
+   background-image: url(https://www.w3schools.com/w3images/map.jpg);
+   background-size: cover;
+}
+#fifth{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
